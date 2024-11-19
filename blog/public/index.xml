@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Cozy Cat Blog ฅ(≚ᄌ≚)</title>
-    <link>https://cozycat.fyi/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Homepage on Cozy Cat Blog ฅ(≚ᄌ≚)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Zhe An.</copyright>
     <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cozycat.fyi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First blog</title>
-      <link>https://cozycat.fyi/first-blog/</link>
+      <link>http://localhost:1313/first-blog/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://cozycat.fyi/first-blog/</guid>
-      <description>&lt;h2 id=&#34;test&#34;&gt;TEST&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cozycat.fyi/IMG_0337.JPG&#34; alt=&#34;I am a cute cute cat&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/first-blog/</guid>
+      <description>&lt;h2 id=&#34;test&#34;&gt;TEST&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/IMG_0337.JPG&#34; alt=&#34;I am a cute cute cat&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My New Page</title>
-      <link>https://cozycat.fyi/my-new-page/</link>
+      <link>http://localhost:1313/my-new-page/</link>
       <pubDate>Sat, 16 Nov 2024 18:09:10 -0800</pubDate>
-      <guid>https://cozycat.fyi/my-new-page/</guid>
-      <description>&lt;h2 id=&#34;hello-word&#34;&gt;HELLO word&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cozycat.fyi/IMG_0337.JPG&#34; alt=&#34;I am a cute cat&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/my-new-page/</guid>
+      <description>&lt;h2 id=&#34;hello-word&#34;&gt;HELLO word&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/IMG_0337.JPG&#34; alt=&#34;I am a cute cat&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
