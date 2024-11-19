@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Cozy Cat Blog ฅ(≚ᄌ≚)</title>
-    <link>https://cozycat.fyi/blog/</link>
-    <description>Recent content in Blog on Cozy Cat Blog ฅ(≚ᄌ≚)</description>
+    <title>TIL on Cozy Cat Blog ฅ(≚ᄌ≚)</title>
+    <link>https://cozycat.fyi/blog/til/</link>
+    <description>Recent content in TIL on Cozy Cat Blog ฅ(≚ᄌ≚)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Zhe An.</copyright>
     <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cozycat.fyi/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cozycat.fyi/blog/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First blog</title>
       <link>https://cozycat.fyi/first-blog/</link>
