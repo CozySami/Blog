@@ -33,7 +33,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # services like Twitter or Slack want to generate a preview of a link to your site.
   # See https://gohugo.io/templates/internal#twitter-cards and
   # https://gohugo.io/templates/internal#open-graph.
-  images = ["images/share.png"]
+  # images = ["images/share.png"]
 
   # Another "title" :-). This one is used as the site_name on the Hugo's internal
   # opengraph structured data template.
@@ -51,6 +51,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
 
-[services]
-  [services.disqus]
-    shortname = 'cozycat-fyi'
+[module]
+  [[module.mounts]]
+    source = 'images'
+    target = 'static/images'
