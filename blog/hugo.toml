@@ -53,9 +53,3 @@ ignoreErrors = ["error-disable-taxonomy"]
   
   # cdn in cloudflare
   imageCdn = "https://cdn.cozycat.fyi/images/"
-
-
-[module]
-  [[module.mounts]]
-    source = 'images'
-    target = 'static/images'
