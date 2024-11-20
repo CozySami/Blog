@@ -1,0 +1,4 @@
+{{ $imageCdn := .Site.Params.imageCdn }}
+{{ $imageName := .Get 0 }}
+
+<img src="{{ $imageCdn }}{{ $imageName }}">

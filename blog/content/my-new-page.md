@@ -7,4 +7,4 @@ menu = "main"
 
 ## HELLO word
 
-![I am a cute cat](/IMG_0337.JPG)
+{{< img IMG_0337.JPG >}}
