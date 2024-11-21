@@ -9,4 +9,3 @@ tags = [
 +++
 
 ## TEST
-![I am a cute cute cat](/IMG_0337.JPG)
