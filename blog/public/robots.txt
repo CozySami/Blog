@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://cozycat.fyi/sitemap.xml
