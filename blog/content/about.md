@@ -5,7 +5,7 @@ title = 'About'
 menu = "main"
 +++
 
-Hi! I’m Zhe, a machine learning engineer in Bay area, My interests include both ML theory and ML system. 
+Hi! I’m Zhe, a machine learning engineer in Bay area. My interests include both ML theory and ML system. 
 
 I hold a PhD in physics but I've almost forgotten most of the concepts after years since graduation.
 
@@ -14,5 +14,6 @@ I take notes on what I learn anything here.
 I have two cats. My energetic boy is curious about this world. I admire him
 {{< img IMG_0337.JPG >}}
 
-**Contact me**
+**If you’d like to chat**  
+
 anzhe0629 at gmail
