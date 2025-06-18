@@ -3,7 +3,7 @@
 baseURL = "https://cozycat.fyi"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = "hugo-bearblog-neo"
 
 # Basic metadata configuration for your blog.
 title = "Cozy Cat Blog ฅ(≚ᄌ≚)"
@@ -53,3 +53,18 @@ ignoreErrors = ["error-disable-taxonomy"]
   
   # cdn in cloudflare
   imageCdn = "https://cdn.cozycat.fyi/images/"
+
+  ##### Only in neo theme
+  # Is the article search function enabled on the blog article list page?
+  postSearch = true
+
+  # Is the list of blog articles grouped by year, the Bear Blog style is false.
+  groupByYear = true
+
+  # Article page whether enabled TOC?
+  toc = true
+
+##### Only in neo theme
+[params.RSS]
+  # Is RSS enabled? If not configured, the default is true.
+  enableRSS = true
