@@ -21,6 +21,23 @@ ignoreErrors = ["error-disable-taxonomy"]
   blog = "/:slug/"
   tags = "/blog/:slug"
 
+[languages]
+  [languages.en]
+    title = "Bear Cub"
+    languageName = "Blog 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  [languages.zh]
+    title = "Bear Cub"
+    languageName = "博客 🇨🇳"
+    LanguageCode = "zh-CN"
+    contentDir = "content_zh"
+    [languages.zh.params]
+      madeWith = "[Bear Cub](https://github.com/clente/hugo-bearcub) 出品"
+
+
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
   description = "Hugo + Bear = :heart:"
@@ -53,6 +70,14 @@ ignoreErrors = ["error-disable-taxonomy"]
   
   # cdn in cloudflare
   imageCdn = "https://cdn.cozycat.fyi/images/"
+
+
+  # If your blog is multilingual but you haven't translated a page, this theme
+  # will create a disabled link. By setting `hideUntranslated` to true, you can
+  # have the theme simply not show any link
+  hideUntranslated = false
+
+
 
   ##### Only in neo theme
   # Is the article search function enabled on the blog article list page?
