@@ -3,7 +3,7 @@
 baseURL = "https://cozycat.fyi"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = "hugo-bearcub"
 
 # Basic metadata configuration for your blog.
 title = "Cozy Cat Blog ฅ(≚ᄌ≚)"
@@ -20,6 +20,23 @@ ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
+
+[languages]
+  [languages.en]
+    title = "Bear Cub"
+    languageName = "Blog 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  [languages.zh]
+    title = "Bear Cub"
+    languageName = "博客 🇨🇳"
+    LanguageCode = "zh-CN"
+    contentDir = "content_zh"
+    [languages.zh.params]
+      madeWith = "[Bear Cub](https://github.com/clente/hugo-bearcub) 出品"
+
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
@@ -54,17 +71,9 @@ ignoreErrors = ["error-disable-taxonomy"]
   # cdn in cloudflare
   imageCdn = "https://cdn.cozycat.fyi/images/"
 
-  ##### Only in neo theme
-  # Is the article search function enabled on the blog article list page?
-  postSearch = true
 
-  # Is the list of blog articles grouped by year, the Bear Blog style is false.
-  groupByYear = true
+  # If your blog is multilingual but you haven't translated a page, this theme
+  # will create a disabled link. By setting `hideUntranslated` to true, you can
+  # have the theme simply not show any link
+  hideUntranslated = false
 
-  # Article page whether enabled TOC?
-  toc = true
-
-##### Only in neo theme
-[params.RSS]
-  # Is RSS enabled? If not configured, the default is true.
-  enableRSS = false
