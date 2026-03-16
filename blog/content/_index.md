@@ -1,5 +1,7 @@
 +++
 title = "Homepage"
+menu = "main"
+weight = 5
 +++
 
-This is an empty homepage
+Hi! I’m Zhe

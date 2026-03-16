@@ -3,7 +3,7 @@
 baseURL = "https://cozycat.fyi"
 
 # The name of this wonderful theme ;-).
-theme = "hugo-bearblog-neo"
+theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
 title = "Cozy Cat Blog ฅ(≚ᄌ≚)"
@@ -54,14 +54,6 @@ ignoreErrors = ["error-disable-taxonomy"]
   # cdn in cloudflare
   imageCdn = "https://cdn.cozycat.fyi/images/"
 
-
-  # If your blog is multilingual but you haven't translated a page, this theme
-  # will create a disabled link. By setting `hideUntranslated` to true, you can
-  # have the theme simply not show any link
-  hideUntranslated = false
-
-
-
   ##### Only in neo theme
   # Is the article search function enabled on the blog article list page?
   postSearch = true
@@ -75,4 +67,4 @@ ignoreErrors = ["error-disable-taxonomy"]
 ##### Only in neo theme
 [params.RSS]
   # Is RSS enabled? If not configured, the default is true.
-  enableRSS = true
+  enableRSS = false
