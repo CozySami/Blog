@@ -7,8 +7,6 @@ This blog uses **MathJax** to render LaTeX equations in Markdown posts. Math ren
 The math rendering is configured in `hugo.toml`:
 
 ```toml
-[markup.goldmark.renderer]
-  unsafe = true
 [markup.goldmark.extensions.passthrough]
   enable = true
   [markup.goldmark.extensions.passthrough.delimiters]
