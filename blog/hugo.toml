@@ -17,6 +17,16 @@ enableRobotsTXT = true
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
@@ -63,6 +73,9 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # Article page whether enabled TOC?
   toc = true
+
+  # Enable MathJax for rendering LaTeX equations
+  math = true
 
 ##### Only in neo theme
 [params.RSS]
