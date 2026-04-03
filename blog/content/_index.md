@@ -1,7 +1,7 @@
 +++
 title = "Homepage"
 menu = "main"
-weight = 5
+weight = 1
 +++
 
 Hi! I’m Zhe
