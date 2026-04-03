@@ -81,3 +81,11 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params.RSS]
   # Is RSS enabled? If not configured, the default is true.
   enableRSS = false
+
+  [params.giscus]
+    repo = "CozySami/Blog"
+    repoId = "R_kgDONQzPjQ"
+    category = "Announcements"
+    categoryId = "DIC_kwDONQzPjc4C57Cc"
+    mapping = "pathname"
+    theme = "preferred_color_scheme"
