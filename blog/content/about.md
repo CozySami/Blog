@@ -13,7 +13,8 @@ I hold a PhD in physics but I've almost forgotten most of the concepts after yea
 I take notes on what I learn anything here. 
 
 I have two cats. My energetic boy is curious about this world. I admire him
-{{< img IMG_0337.JPG >}}
+
+{{< b2img "sami.JPG" "sami" >}}
 
 **If you’d like to chat**  
 
