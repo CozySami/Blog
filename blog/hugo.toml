@@ -63,6 +63,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   
   # cdn in cloudflare
   imageCdn = "https://cdn.cozycat.fyi/images/"
+  b2_s3 = "https://image-cdn-proxy.anzhe0629.workers.dev/cozycat-blog/"
 
   ##### Only in neo theme
   # Is the article search function enabled on the blog article list page?
