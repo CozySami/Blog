@@ -1,5 +1,5 @@
 +++
-title = "博客"
+title = "Chinese"
 menu = "main"
 weight = 10
 +++
