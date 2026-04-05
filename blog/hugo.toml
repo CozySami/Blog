@@ -63,6 +63,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
   
+  # image bucket in b2 -> cloudflare worker
   b2_s3 = "https://image-cdn-proxy.anzhe0629.workers.dev/cozycat-blog/"
 
   ##### Only in neo theme
