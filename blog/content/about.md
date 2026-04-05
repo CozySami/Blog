@@ -3,7 +3,7 @@ date = '2024-11-16T18:09:37-08:00'
 draft = false
 title = 'About'
 menu = "main"
-weight = 15
+weight = 20
 +++
 
 Hi! I’m Zhe, a machine learning engineer in Bay area. My interests include both ML theory and ML system. 
