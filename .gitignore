@@ -1,3 +1,5 @@
 .DS_Store
 blog/static
 blog/public
+blog/resources
+blog/.hugo_build.lock
