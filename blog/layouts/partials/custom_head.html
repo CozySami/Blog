@@ -14,4 +14,46 @@
   th {
     background-color: rgba(255, 255, 255, 0.1);
   }
+
+  #theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 8px;
+    vertical-align: middle;
+    color: inherit;
+  }
+
+  #theme-toggle svg { display: none; }
+  html[data-theme="light"] #theme-toggle .icon-moon,
+  html:not([data-theme]) #theme-toggle .icon-moon { display: inline; }
+  html[data-theme="dark"] #theme-toggle .icon-sun { display: inline; }
+
+  @media (prefers-color-scheme: dark) {
+    html:not([data-theme]) #theme-toggle .icon-moon { display: none; }
+    html:not([data-theme]) #theme-toggle .icon-sun { display: inline; }
+  }
+
+  html[data-theme="dark"] body { background-color: #333; color: #ddd; }
+  html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3,
+  html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
+  html[data-theme="dark"] strong, html[data-theme="dark"] b { color: #eee; }
+  html[data-theme="dark"] a { color: #8cc2dd; }
+  html[data-theme="dark"] code { background-color: #777; }
+  html[data-theme="dark"] pre code { color: #ddd; }
+  html[data-theme="dark"] blockquote { color: #ccc; }
+  html[data-theme="dark"] textarea, html[data-theme="dark"] input { background-color: #252525; color: #ddd; }
+  html[data-theme="dark"] .helptext { color: #aaa; }
+
+  html[data-theme="light"] body { background-color: #fff; color: #444; }
+  html[data-theme="light"] h1, html[data-theme="light"] h2, html[data-theme="light"] h3,
+  html[data-theme="light"] h4, html[data-theme="light"] h5, html[data-theme="light"] h6,
+  html[data-theme="light"] strong, html[data-theme="light"] b { color: #222; }
+  html[data-theme="light"] a { color: #3273dc; }
+  html[data-theme="light"] code { background-color: #f2f2f2; }
+  html[data-theme="light"] pre code { color: #222; }
+  html[data-theme="light"] blockquote { color: #222; }
+  html[data-theme="light"] textarea, html[data-theme="light"] input { background-color: #fff; color: #444; }
+  html[data-theme="light"] .helptext { color: #777; }
 </style>
