@@ -1,4 +1,6 @@
 +++
 title = "Blog"
-weight = 4
+menu = "main"
+weight = 5
 +++
+

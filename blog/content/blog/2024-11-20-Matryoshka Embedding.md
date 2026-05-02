@@ -1,4 +1,5 @@
 +++
+slug = "matryoshka-embedding"
 title = "Understand Matryoshka Embedding"
 date = "2024-11-20"
 draft = false
@@ -10,7 +11,8 @@ tags = [
 ### What is Matryoshka Embedding?
 Matryoshka embedding are designed with a unique feature: even their smaller, truncated embeddings preserve a similar distance in the original feature space. This means users can easily choose a smaller dimension without sacrificing much retrieval accuracy.
 
-{{< img matryoshka_model.png >}}
+{{< b2img "blog/matryoshka_model.png" "matryoshka_model" >}}
+
 Credit: hugging face
 
 ### How Does It Work?

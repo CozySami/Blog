@@ -1,8 +1,5 @@
 <!-- <a href="{{ "" | relURL }}">Home</a> -->
 <!-- COMMENT ABOVE LINE: REMOVE HOME -->
-{{ with .Site.GetPage "/blog" }}
-<a href="{{ "blog" | relURL }}">Blog</a>
-{{ end }}
-{{ range .Site.Menus.main }}
+{{ range .Site.Menus.main.ByWeight }}
 <a href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}

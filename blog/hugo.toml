@@ -3,7 +3,7 @@
 baseURL = "https://cozycat.fyi"
 
 # The name of this wonderful theme ;-).
-theme = "hugo-bearblog-neo"
+theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
 title = "Cozy Cat Blog ฅ(≚ᄌ≚)"
@@ -17,9 +17,21 @@ enableRobotsTXT = true
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [ ['\[', '\]'], ['$$', '$$'] ]
+          inline = [ ['\(', '\)'] ]
+
 [permalinks]
-  blog = "/:slug/"
-  tags = "/blog/:slug"
+  blog = "/blog/:slug/"
+  chinese = "/chinese/:slug/"
+  shorts = "/shorts/:slug/"
+  tags = "/tags/:slug"
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
@@ -51,16 +63,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
   
-  # cdn in cloudflare
-  imageCdn = "https://cdn.cozycat.fyi/images/"
-
-
-  # If your blog is multilingual but you haven't translated a page, this theme
-  # will create a disabled link. By setting `hideUntranslated` to true, you can
-  # have the theme simply not show any link
-  hideUntranslated = false
-
-
+  # image bucket in b2 -> cloudflare worker
+  b2_s3 = "https://image-cdn-proxy.anzhe0629.workers.dev/cozycat-blog/"
 
   ##### Only in neo theme
   # Is the article search function enabled on the blog article list page?
@@ -72,7 +76,18 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Article page whether enabled TOC?
   toc = true
 
+  # Enable MathJax for rendering LaTeX equations
+  math = true
+
 ##### Only in neo theme
 [params.RSS]
   # Is RSS enabled? If not configured, the default is true.
-  enableRSS = true
+  enableRSS = false
+
+  [params.giscus]
+    repo = "CozySami/Blog"
+    repoId = "R_kgDONQzPjQ"
+    category = "Announcements"
+    categoryId = "DIC_kwDONQzPjc4C57Cc"
+    mapping = "pathname"
+    theme = "preferred_color_scheme"
